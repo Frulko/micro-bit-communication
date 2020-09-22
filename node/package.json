@@ -1,0 +1,15 @@
+{
+  "name": "microbit-communication",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node server_ws_lineus.js",
+    "debug": "node debug_ws_server.js"
+  },
+  "keywords": [],
+  "author": "Frulko",
+  "dependencies": {
+    "@beardicus/line-us": "^2.1.0",
+    "ws": "^7.3.1"
+  }
+}
